@@ -122,7 +122,7 @@ public class UserAccountController extends HttpServlet {
 					request.setAttribute("NOTIFICATION", "Your account is Registered Successfully!");
 					
 				}else {
-					request.setAttribute("NOTIFICATION","Username already exists! Try another Username");
+					request.setAttribute("NOTIFICATION","Username already exists. Try another Username");
 					
 				}
 				 
